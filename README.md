@@ -2,7 +2,7 @@
 Given a fasta alignment file containing the homeodomains of homeobox protiens, it will filter out those without a TALE loop in the proper location(except the first gene as an outgroup). Should save the user a few hours of boring manual filtration.
 
 
-X) How to use
+How to use--------------------------------------------------------
 
 Run the file with python, and your command line will open it up.
 
@@ -20,10 +20,13 @@ This is distinct from just any text-editor program: to work with your computer, 
 With this information entered, the program will read through the file input, and it will remove any genes that lack a characteristic TALE motif. The filtered set of genes will be placed in the output folder as (File name)_filtered.filetype,
 and the removed genes will be placed there as (File name)_removed.filetype. The first gene in a file will be assumed to be the outgroup and will not be removed by the filter.
 
-XI) Details and Issues
+Eventually i may add a optional input at the end to rename the file but as of now that is not a feature.
+
+Details and Issues--------------------------------------------------------
 
 Becasue TALE genes can be variable in the content of thier loops and it is hard to reliably find a specific 3 acid sequence.The way it determines what a Three amino acid loop extension is by searching for where it should be, in the 23rd to 25th acid. If the alignment has a "-" acid in that space, it is assumed to be lacking the Loop extension, and is removed. If the alignment does not have enough TALE genes in it for it to treat any non-TALE genes as lacking a group there (thus treating the loop as an extension rather than a deficiency) it will not work.
 
 This method does not work perfectly: Running the sample file through and checking through the filtered genes, some of those removed have the characteristic PYP motif that is usually nearby the TALE loop, but happen to have an acid or two listed as missing. Additionally, a gene that is clearly broken or unfit can pass through the filter if the alignment happens to treat it as having codons in this area. As homeobox genes are well known for being highly conserved and with the same number of sequences, these are not huge issues, but must be known. Searching through the removed document for potential errors is advised.
 
+--------------------------------------------------------
 This project is not in any way professional nor something i expect to return to. Hopefully it works for your OS and for your project, but I make no promises to return to this and expand it's useability as it was for personal use. 
