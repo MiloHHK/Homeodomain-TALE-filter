@@ -7,7 +7,7 @@ How to use--------------------------------------------------------
 Run the file with python, and your command line will open it up.
 
 Upon opening, it will request you to enter the path of an input file. 
-Copy the path of where your desired file is located, for example: "C:\Users\You\Folder_Location\TALEifier\Homeodomain_TALE_Filter_V1.0.py" on a windows computer. 
+Copy the path of where your desired file is located, for example: "C:\Users\You\Folder_Location\TALEifier\Homeodomain_TALE_Filter_v1.0.py" on a windows computer. 
 Quotation marks around the path is acceptable so if using windows you can use the copy as path command without having to trim them. The inputted file should be an alignment file in FASTA format with each gene being a protien of a single homeodomain. The program uses the ">" starts for genes that are characteristic for fasta files to search, so make sure your document in question works with this.
 
 Next, it will request you to enter the path of an output folder, which can be done in hthe same way as the previous. If you press enter, it will default to the outputs folder within this program. If you want to set a different folder as the default, i reccomend tinkering with the code to do so, or having a shortcut to outputs in your desired folder.
