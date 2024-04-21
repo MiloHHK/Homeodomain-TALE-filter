@@ -31,6 +31,6 @@ This method does not work perfectly: Running the sample file through and checkin
 Obviously, this program requires a modern version of the Python language installed.
 
 --------------------------------------------------------
-I included two copies of the python file, one that is stripped down and one with my annotations for those looking to tinker with the files.
+I included two copies of the python file, one that is stripped down and one with my annotations for those looking to tinker with the files, located in a branch.
 
 This project is not in any way professional nor something i expect to return to. Hopefully it works for your OS and for your project, but I make no promises to return to this and expand it's useability as it was for personal use. 
