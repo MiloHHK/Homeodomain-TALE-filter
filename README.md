@@ -28,5 +28,9 @@ Becasue TALE genes can be variable in the content of thier loops and it is hard 
 
 This method does not work perfectly: Running the sample file through and checking through the filtered genes, some of those removed have the characteristic PYP motif that is usually nearby the TALE loop, but happen to have an acid or two listed as missing. Additionally, a gene that is clearly broken or unfit can pass through the filter if the alignment happens to treat it as having codons in this area. As homeobox genes are well known for being highly conserved and with the same number of sequences, these are not huge issues, but must be known. Searching through the removed document for potential errors is advised.
 
+Obviously, this program requires a modern version of the Python language installed.
+
 --------------------------------------------------------
+I included two copies of the python file, one that is stripped down and one with my annotations for those looking to tinker with the files.
+
 This project is not in any way professional nor something i expect to return to. Hopefully it works for your OS and for your project, but I make no promises to return to this and expand it's useability as it was for personal use. 
